@@ -43,7 +43,7 @@ app.use('/files', express.static(process.cwd(), {
 
 		// Set header to force files to download
 
-		res.setHeader('Content-Disposition', contentDisposition(path))
+		//res.setHeader('Content-Disposition', contentDisposition(path))
 
 	}
 }));
